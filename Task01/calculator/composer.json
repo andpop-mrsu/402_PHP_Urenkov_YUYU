@@ -1,0 +1,23 @@
+{
+    "name": "yurau/calculator",
+    "description": "Console calculator game",
+    "type": "project",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.7"
+    },
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "bin": [
+        "bin/calculator"
+    ],
+    "authors": [
+        {
+            "name": "Yura",
+            "email": "yura.urenkov@email.com"
+        }
+    ]
+}
